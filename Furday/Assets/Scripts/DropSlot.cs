@@ -43,28 +43,19 @@ public class DropSlot : MonoBehaviour, IDropHandler
 
             if (draggedItem.clothingItem.clothingType == slotType)
             {
-                // Get active character
-                GameObject activeCharacter = CharacterManager.Instance.GetActiveCharacter();
-
-                // Find the right slot on the active character
-                DropSlot activeSlot = activeCharacter.GetComponentInChildren<DropSlot>();
-
-                if (activeSlot != null)
+                // If slot already has an item, send it back to inventory
+                if (equippedImage.sprite != null)
                 {
-                    // If slot already has an item, return it to inventory
-                    if (activeSlot.equippedImage.sprite != null)
-                    {
-                        Transform inventoryPanel = FindObjectOfType<InventoryManager>().inventoryPanel;
-                        draggedItem.transform.SetParent(inventoryPanel);
-                        draggedItem.rectTransform.anchoredPosition = Vector2.zero; // Reset position
-                    }
-
-                    // Equip new item on active character
-                    activeSlot.equippedImage.sprite = draggedItem.clothingItem.itemSprite;
-                    draggedItem.transform.SetParent(activeSlot.transform); // Move item to slot
-                    draggedItem.transform.localPosition = Vector3.zero; // Snap to center
-                    SaveEquippedItem(draggedItem.clothingItem);
+                    Transform inventoryPanel = FindObjectOfType<InventoryManager>().inventoryPanel;
+                    draggedItem.transform.SetParent(inventoryPanel);
+                    draggedItem.rectTransform.anchoredPosition = Vector2.zero; // Reset position
                 }
+
+                // Equip new item
+                equippedImage.sprite = draggedItem.clothingItem.itemSprite;
+                draggedItem.transform.SetParent(transform); // Move item to slot
+                draggedItem.transform.localPosition = Vector3.zero; // Snap to center
+                SaveEquippedItem(draggedItem.clothingItem);
             }
             else
             {
@@ -72,7 +63,6 @@ public class DropSlot : MonoBehaviour, IDropHandler
             }
         }
     }
-
 
 
 
