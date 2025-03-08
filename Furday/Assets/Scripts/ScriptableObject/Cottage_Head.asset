@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9aa41033e5e83c4b8416402ab7819d0, type: 3}
-  m_Name: PunkTail
+  m_Name: Cottage_Head
   m_EditorClassIdentifier: 
-  itemName: PunkTail
-  itemSprite: {fileID: 706724642, guid: 610426ebe7d34f34a9baa093c7d5a679, type: 3}
+  itemName: cottagehead
+  itemSprite: {fileID: 1043850083, guid: 74c9c1abbcdb92d4ab4239e832999bdc, type: 3}
   itemPrefab: {fileID: 0}
-  clothingType: 4
+  clothingType: 0
   usePrefab: 0
+  anchoredPosition: {x: 0, y: 0, z: 0}

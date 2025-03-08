@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9aa41033e5e83c4b8416402ab7819d0, type: 3}
-  m_Name: GothHead
+  m_Name: Cute_Legs
   m_EditorClassIdentifier: 
-  itemName: gothhead
-  itemSprite: {fileID: -243092779, guid: 1bdcdf5b6428ce446af96e659b3bc108, type: 3}
+  itemName: cutelegs
+  itemSprite: {fileID: -1136849523, guid: 951112093a0145f46bb257d8d125b86e, type: 3}
   itemPrefab: {fileID: 0}
-  clothingType: 0
+  clothingType: 2
   usePrefab: 0
+  anchoredPosition: {x: 49, y: -17.38, z: 0}
