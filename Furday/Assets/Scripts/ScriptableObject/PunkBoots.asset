@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9aa41033e5e83c4b8416402ab7819d0, type: 3}
+  m_Name: PunkBoots
+  m_EditorClassIdentifier: 
+  itemName: PunkBoots
+  itemSprite: {fileID: 923481425, guid: 57e6bc3e4c37a24499604268095b6ae9, type: 3}
+  itemPrefab: {fileID: 0}
+  clothingType: 3
+  usePrefab: 0

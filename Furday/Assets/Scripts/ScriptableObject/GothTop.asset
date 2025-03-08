@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9aa41033e5e83c4b8416402ab7819d0, type: 3}
+  m_Name: GothTop
+  m_EditorClassIdentifier: 
+  itemName: 
+  itemSprite: {fileID: 1411177061, guid: 98a7d68265d9bc048aea2781d337025b, type: 3}
+  itemPrefab: {fileID: 0}
+  clothingType: 1
+  usePrefab: 0
+  anchoredPosition: {x: 85, y: -27, z: 0}

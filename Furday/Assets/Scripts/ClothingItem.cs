@@ -9,9 +9,11 @@ public class ClothingItem : ScriptableObject
     public Sprite itemSprite;  // Image of the clothing
     public GameObject itemPrefab; // Optional: Prefab for 3D/complex objects
 
-    public ClothingType clothingType; // Category (Head, Torso, Legs, Feet)
+    public ClothingType clothingType; // Category (Head, Torso, Legs, Feet,Tail)
 
     public bool usePrefab; // Toggle to decide if prefab should be used
+
+    public Vector3 anchoredPosition;
 }
 
 
@@ -20,6 +22,7 @@ public enum ClothingType
     Head,
     Torso,
     Legs,
-    Feet
+    Feet,
+    Tail
 }
 
