@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9aa41033e5e83c4b8416402ab7819d0, type: 3}
-  m_Name: PunkBoots
+  m_Name: Scene_Torso
   m_EditorClassIdentifier: 
-  itemName: PunkBoots
-  itemSprite: {fileID: 923481425, guid: 57e6bc3e4c37a24499604268095b6ae9, type: 3}
+  itemName: scenetorso
+  itemSprite: {fileID: -2128387086, guid: 7ae8414d7b7056a4daa7164e9ffbba3a, type: 3}
   itemPrefab: {fileID: 0}
-  clothingType: 3
+  clothingType: 1
   usePrefab: 0
+  anchoredPosition: {x: 0, y: 0, z: 0}

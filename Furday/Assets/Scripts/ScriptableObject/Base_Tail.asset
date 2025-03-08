@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9aa41033e5e83c4b8416402ab7819d0, type: 3}
-  m_Name: PunkPants
+  m_Name: Base_Tail
   m_EditorClassIdentifier: 
-  itemName: PunkPants
-  itemSprite: {fileID: -1341707934, guid: f55bb4b033b6b0e4e972ab4963176d80, type: 3}
+  itemName: blue tail
+  itemSprite: {fileID: 21300000, guid: 941d7c01779fd694c87f0a328da618b7, type: 3}
   itemPrefab: {fileID: 0}
-  clothingType: 2
+  clothingType: 4
   usePrefab: 0
