@@ -9,7 +9,7 @@ public class DropSlot : MonoBehaviour, IDropHandler
 
     void Start()
     {
-        LoadEquippedItem();
+        //LoadEquippedItem();
     }
 
     void LoadEquippedItem()
@@ -49,46 +49,47 @@ public class DropSlot : MonoBehaviour, IDropHandler
             Debug.Log("Dropped item: " + draggedItem.clothingItem.itemName + " on " + slotType);
 
             // Check if the dragged item matches the slot type (Head, Torso, Legs, etc.)
-            if (draggedItem.clothingItem.clothingType == slotType)
-            {
-                // If the slot already has an equipped item, move it back to the inventory
-                if (equippedImage.sprite != null)
-                {
-                    // Return the dragged item back to the inventory panel
-                    Transform inventoryPanel = FindObjectOfType<InventoryManager>().inventoryPanel;
-                    Transform[] children = transform.GetComponentsInChildren<Transform>();
-                    Debug.Log(transform.name);
-                    foreach (Transform child in children)
-                    {
-                        if (child != transform)
-                        {
-                            child.SetParent(inventoryPanel); // Set the parent back to the inventory
-                            child.localPosition = Vector3.zero; // Reset position to default
-                            Debug.Log(child.name);
-                        }
-                    }
-                }
-                // Set the new sprite with centered pivot
+            //if (draggedItem.clothingItem.clothingType == slotType)
+            //{
+            //    // If the slot already has an equipped item, move it back to the inventory
+            //    if (equippedImage.sprite != null)
+            //    {
+            //        // Return the dragged item back to the inventory panel
+            //        Transform inventoryPanel = FindObjectOfType<InventoryManager>().inventoryPanel;
+            //        Transform[] children = transform.GetComponentsInChildren<Transform>();
+            //        Debug.Log(transform.name);
+            //        foreach (Transform child in children)
+            //        {
+            //            if (child != transform)
+            //            {
+            //                child.SetParent(inventoryPanel); // Set the parent back to the inventory
+            //                child.localPosition = Vector3.zero; // Reset position to default
+            //                Debug.Log(child.name);
+            //            }
+            //        }
+            //    }
+            //    // Set the new sprite with centered pivot
 
 
-                // Equip the new item
-                equippedImage.sprite = draggedItem.clothingItem.itemSprite;
-                draggedItem.transform.SetParent(transform); // Move the item to the equipped slot
-                draggedItem.transform.localPosition = Vector3.zero; // Ensure it stays centered in the slot
+            //    // Equip the new item
+            //    equippedImage.sprite = draggedItem.clothingItem.itemSprite;
+            //    draggedItem.transform.SetParent(transform); // Move the item to the equipped slot
+            //    draggedItem.transform.localPosition = Vector3.zero; // Ensure it stays centered in the slot
 
-                draggedItem.GetComponent<RectTransform>().anchoredPosition = draggedItem.clothingItem.anchoredPosition;
+            //    draggedItem.GetComponent<RectTransform>().anchoredPosition = draggedItem.clothingItem.anchoredPosition;
 
 
-                // Set the sprite's native size
-                SetNativeSize(draggedItem);
 
-                // Save the equipped item to PlayerPrefs
-                SaveEquippedItem(draggedItem.clothingItem);
-            }
-            else
-            {
-                Debug.Log("Wrong slot! " + draggedItem.clothingItem.clothingType + " doesn't match " + slotType);
-            }
+            //    // Set the sprite's native size
+            //    SetNativeSize(draggedItem);
+
+            //    //// Save the equipped item to PlayerPrefs
+            //    //SaveEquippedItem(draggedItem.clothingItem);
+            //}
+            //else
+            //{
+            //    Debug.Log("Wrong slot! " + draggedItem.clothingItem.clothingType + " doesn't match " + slotType);
+            //}
         }
     }
 

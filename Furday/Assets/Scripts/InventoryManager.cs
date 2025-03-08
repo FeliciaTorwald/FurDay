@@ -6,9 +6,12 @@ public class InventoryManager : MonoBehaviour
     public Transform inventoryPanel; // UI panel for inventory
     public GameObject inventoryItemPrefab; // Prefab for UI inventory item
     public List<ClothingItem> clothingItems;
+    public List<DropSlot> dropSlots;
+    public static InventoryManager instance;
 
     void Start()
     {
+        instance = this;
         PopulateInventory();
     }
 
