@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Cottage_Tail
   m_EditorClassIdentifier: 
   itemName: cottagetail
-  itemSprite: {fileID: -574069082, guid: 3bde1db7fd9ddcf4e82cbff909984ced, type: 3}
+  itemSprite: {fileID: 648063060, guid: dcbbc4e5485a68e4aacffa600c49d25e, type: 3}
   itemPrefab: {fileID: 0}
   clothingType: 4
   usePrefab: 0
-  anchoredPosition: {x: 70, y: -80, z: 0}
+  anchoredPosition: {x: 48.6, y: -95.9, z: 0}

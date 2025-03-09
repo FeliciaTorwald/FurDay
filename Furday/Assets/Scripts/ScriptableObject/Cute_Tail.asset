@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Cute_Tail
   m_EditorClassIdentifier: 
   itemName: cutetail
-  itemSprite: {fileID: -238397484, guid: 43f86638b1375cb44b44944b288d2ccd, type: 3}
+  itemSprite: {fileID: 939302386, guid: e91de112b499eb34285567716f16887e, type: 3}
   itemPrefab: {fileID: 0}
   clothingType: 4
   usePrefab: 0
-  anchoredPosition: {x: 70, y: -80, z: 0}
+  anchoredPosition: {x: 25, y: -100, z: 0}

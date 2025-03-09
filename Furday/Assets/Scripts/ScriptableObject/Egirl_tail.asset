@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9aa41033e5e83c4b8416402ab7819d0, type: 3}
-  m_Name: Scene_Tail
+  m_Name: Egirl_tail
   m_EditorClassIdentifier: 
-  itemName: scenetail
-  itemSprite: {fileID: 1543011364, guid: 0ba145e71be25284a8facdb1c74b62a6, type: 3}
+  itemName: techTorso
+  itemSprite: {fileID: 1989676633, guid: 106f95b87dc72144aa9934bb3780e124, type: 3}
   itemPrefab: {fileID: 0}
   clothingType: 4
   usePrefab: 0
-  anchoredPosition: {x: 63.5, y: -90.9, z: 0}
+  anchoredPosition: {x: 62.5, y: -92, z: 0}
