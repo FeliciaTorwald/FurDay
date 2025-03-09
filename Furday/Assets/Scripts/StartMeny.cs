@@ -14,6 +14,11 @@ public class StartMeny : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
     }
+    public void Meny()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
