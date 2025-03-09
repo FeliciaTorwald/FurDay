@@ -23,6 +23,7 @@ public enum ClothingType
     Torso,
     Legs,
     Feet,
-    Tail
+    Tail,
+    BackHair
 }
 
