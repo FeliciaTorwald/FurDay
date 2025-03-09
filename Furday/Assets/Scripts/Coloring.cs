@@ -28,10 +28,10 @@ public class Coloring : MonoBehaviour
     public Image eyesImage;
     public Image patternImage;
     public Image lineArtImage;
-    public Transform colorpickerPos;
+    //public Transform colorpickerPos;
     public void PaintBaseButton()
     {
-        colorPicker.gameObject.SetActive(!colorPicker.gameObject.activeSelf);
+        //colorPicker.gameObject.SetActive(true);
         if (colorPicker.gameObject.activeSelf)
         {
             currentImage = baseImage;
@@ -40,7 +40,7 @@ public class Coloring : MonoBehaviour
         {
             currentImage = null;
         }
-        colorPicker.GetComponent<RectTransform>().position = colorPicker.GetComponent<RectTransform>().position;
+        //colorPicker.GetComponent<RectTransform>().position = colorPicker.GetComponent<RectTransform>().position;
         //colorPicker.GetComponent<RectTransform>().position = baseButton.GetComponent<RectTransform>().position + new Vector3(0, 0, 0);
         if (baseColor.a > 0)
         {
@@ -54,7 +54,7 @@ public class Coloring : MonoBehaviour
 
     public void PaintScleraButton()
     {
-        colorPicker.gameObject.SetActive(!colorPicker.gameObject.activeSelf);
+        //colorPicker.gameObject.SetActive(true);
         if (colorPicker.gameObject.activeSelf)
         {
             currentImage = scleraImage;
@@ -77,7 +77,7 @@ public class Coloring : MonoBehaviour
 
     public void PaintBeansButton()
     {
-        colorPicker.gameObject.SetActive(!colorPicker.gameObject.activeSelf);
+        //colorPicker.gameObject.SetActive(true);
         if (colorPicker.gameObject.activeSelf)
         {
             currentImage = beansImage;
@@ -100,7 +100,7 @@ public class Coloring : MonoBehaviour
     }
     public void PaintEyesButton()
     {
-        colorPicker.gameObject.SetActive(!colorPicker.gameObject.activeSelf);
+        //colorPicker.gameObject.SetActive(true);
         if (colorPicker.gameObject.activeSelf)
         {
             currentImage = eyesImage;
@@ -123,7 +123,7 @@ public class Coloring : MonoBehaviour
 
     public void PaintPatternButton()
     {
-        colorPicker.gameObject.SetActive(!colorPicker.gameObject.activeSelf);
+        //colorPicker.gameObject.SetActive(true);
         if (colorPicker.gameObject.activeSelf)
         {
             currentImage = patternImage;
@@ -146,7 +146,7 @@ public class Coloring : MonoBehaviour
 
     public void PaintLineArtButton()
     {
-        colorPicker.gameObject.SetActive(!colorPicker.gameObject.activeSelf);
+        //scolorPicker.gameObject.SetActive(true);
         if (colorPicker.gameObject.activeSelf)
         {
             currentImage = lineArtImage;
@@ -169,7 +169,8 @@ public class Coloring : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        colorPicker.gameObject.SetActive(false);
+        //colorPicker.gameObject.SetActive(false);
+        colorPicker.SetColorNoAlpha(Color.white);
 
     }
 
