@@ -1024,7 +1024,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 128, y: 128}
+  m_CellSize: {x: 110, y: 110}
   m_Spacing: {x: 30, y: 30}
   m_Constraint: 1
   m_ConstraintCount: 5
@@ -1794,6 +1794,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 492420165bf8f51498ff07973fe23e67, type: 2}
   - {fileID: 11400000, guid: d14424a03efc5184e8a174b7e42f45a4, type: 2}
   - {fileID: 11400000, guid: ff5a0010938f17a4082f0cc4a59020a6, type: 2}
+  - {fileID: 11400000, guid: 6d5b52aa25ca60447a9c9a7af7a9f274, type: 2}
+  - {fileID: 11400000, guid: 6de3bb91349c88443b27448944c6cb55, type: 2}
+  - {fileID: 11400000, guid: 7f520c4b708b8df4cb8af9ddaf8dca9a, type: 2}
+  - {fileID: 11400000, guid: 8c626dde74d9c1e409eaa5f59ac7164a, type: 2}
+  - {fileID: 11400000, guid: 8ebc859434191cf498b5048246eb63ef, type: 2}
+  - {fileID: 11400000, guid: 34756d05c4b8e9147a1b2eb76512a8ac, type: 2}
+  - {fileID: 11400000, guid: c3504dece29f83547947044411bba24b, type: 2}
+  - {fileID: 11400000, guid: 4c62582ba99ae1042bff8a0516b89fc6, type: 2}
+  - {fileID: 11400000, guid: cbe3455b12a7e79438e412c35b4c62af, type: 2}
+  - {fileID: 11400000, guid: 8c6b52b6770c1644680fee53b3df8447, type: 2}
+  - {fileID: 11400000, guid: 9dabb64f2961d794da21d2b3d3a9fa94, type: 2}
+  - {fileID: 11400000, guid: d93bd0d4216d0ee4babe2c6bef40afeb, type: 2}
+  - {fileID: 11400000, guid: 73f95eeee2c3506499ef394919d70bfb, type: 2}
+  - {fileID: 11400000, guid: b1761050c1aa25343aba3fe5debabb9e, type: 2}
   dropSlots:
   - {fileID: 94553409}
   - {fileID: 339196722}
