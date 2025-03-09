@@ -48,7 +48,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
         Debug.Log(rectTransform.position.x);
-        if (rectTransform.position.x <= 475)
+        if (rectTransform.position.x <= InventoryManager.instance.inventoryPanel.GetComponent<RectTransform>().position.x)
         {
             var dropSlot = InventoryManager.instance.dropSlots[(int)clothingItem.clothingType];
             var equippedImage = dropSlot.equippedImage;
