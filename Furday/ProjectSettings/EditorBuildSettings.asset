@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/DressUpRoom.unity
-    guid: 93c029de692d6c348b7aaf1434510fc8
-  - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: 84d3a65da2e318840a5b58b8c8411ad8
+  - enabled: 1
+    path: Assets/Scenes/DressUpRoom.unity
+    guid: 93c029de692d6c348b7aaf1434510fc8
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: be74ffc69186c31428d0f06107013c37
