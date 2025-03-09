@@ -15,6 +15,6 @@ MonoBehaviour:
   itemName: mikuhead
   itemSprite: {fileID: -2080568766, guid: c6e4ecbf397e9ef42bd5f000498e5145, type: 3}
   itemPrefab: {fileID: 0}
-  clothingType: 1
+  clothingType: 0
   usePrefab: 0
-  anchoredPosition: {x: 0, y: 0, z: 0}
+  anchoredPosition: {x: 51.1, y: -85.3, z: 0}
