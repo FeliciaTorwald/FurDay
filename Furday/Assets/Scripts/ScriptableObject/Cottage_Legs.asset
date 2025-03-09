@@ -17,4 +17,4 @@ MonoBehaviour:
   itemPrefab: {fileID: 0}
   clothingType: 2
   usePrefab: 0
-  anchoredPosition: {x: 0, y: 0, z: 0}
+  anchoredPosition: {x: 45, y: -65, z: 0}
