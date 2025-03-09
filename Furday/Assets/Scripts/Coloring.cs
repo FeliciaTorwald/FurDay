@@ -28,6 +28,7 @@ public class Coloring : MonoBehaviour
     public Image eyesImage;
     public Image patternImage;
     public Image lineArtImage;
+    public Transform colorpickerPos;
     public void PaintBaseButton()
     {
         colorPicker.gameObject.SetActive(!colorPicker.gameObject.activeSelf);
@@ -39,7 +40,8 @@ public class Coloring : MonoBehaviour
         {
             currentImage = null;
         }
-        colorPicker.GetComponent<RectTransform>().position = baseButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
+        colorPicker.GetComponent<RectTransform>().position = colorPicker.GetComponent<RectTransform>().position;
+        //colorPicker.GetComponent<RectTransform>().position = baseButton.GetComponent<RectTransform>().position + new Vector3(0, 0, 0);
         if (baseColor.a > 0)
         {
             colorPicker.SetColor(baseColor);
@@ -61,7 +63,7 @@ public class Coloring : MonoBehaviour
         {
             currentImage = null;
         }
-        colorPicker.GetComponent<RectTransform>().position = scleraButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
+        //colorPicker.GetComponent<RectTransform>().position = scleraButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
 
         if (scleraColor.a > 0)
         {
@@ -84,7 +86,7 @@ public class Coloring : MonoBehaviour
         {
             currentImage = null;
         }
-        colorPicker.GetComponent<RectTransform>().position = beansButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
+        //colorPicker.GetComponent<RectTransform>().position = beansButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
 
         if (beansColor.a > 0)
         {
@@ -107,7 +109,7 @@ public class Coloring : MonoBehaviour
         {
             currentImage = null;
         }
-        colorPicker.GetComponent<RectTransform>().position = eyesButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
+        //colorPicker.GetComponent<RectTransform>().position = eyesButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
 
         if (eyesColor.a > 0)
         {
@@ -130,7 +132,7 @@ public class Coloring : MonoBehaviour
         {
             currentImage = null;
         }
-        colorPicker.GetComponent<RectTransform>().position = patternButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
+        //colorPicker.GetComponent<RectTransform>().position = patternButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
 
         if (patternColor.a > 0)
         {
@@ -153,7 +155,7 @@ public class Coloring : MonoBehaviour
         {
             currentImage = null;
         }
-        colorPicker.GetComponent<RectTransform>().position = lineArtButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
+        //colorPicker.GetComponent<RectTransform>().position = lineArtButton.GetComponent<RectTransform>().position + new Vector3(125, -115.7f, 0);
 
         if (lineArtColor.a > 0)
         {
