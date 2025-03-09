@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9aa41033e5e83c4b8416402ab7819d0, type: 3}
-  m_Name: Punk_Head
+  m_Name: Egirl_torso
   m_EditorClassIdentifier: 
-  itemName: punkhead
-  itemSprite: {fileID: -1649750619, guid: 68d7c2c76e919ef41a55ddff4050c226, type: 3}
+  itemName: techTorso
+  itemSprite: {fileID: 1550773348, guid: 8c1af0849b242044eb8edaacb10005eb, type: 3}
   itemPrefab: {fileID: 0}
-  clothingType: 0
+  clothingType: 1
   usePrefab: 0
-  anchoredPosition: {x: 46, y: -49, z: 0}
+  anchoredPosition: {x: 77, y: -33, z: 0}
